@@ -16,7 +16,8 @@ jobs:
             pkgarch: mips_24kc
             target: ath79
             subtarget: nand
-            vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
+            vermagic: "458ea791ab57701ad5359ae6568f3fd9" # kernel 5.10.176-1-458ea791ab57701ad5359ae6568f3fd9
+            # vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
           - tag: "23.05.0"
             pkgarch: mipsel_24kc
             target: ramips
